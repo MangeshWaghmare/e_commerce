@@ -15,8 +15,11 @@ function Navbar() {
       <Link to="/cart" style={{ marginRight: "15px", color: "#fff" }}>
         Cart
       </Link>
-      <Link to="/about" style={{ color: "#fff" }}>
+      <Link to="/about" style={{ marginRight: "15px", color: "#fff" }}>
         About
+      </Link>
+      <Link to="/login" style={{ marginRight: "15px", color: "#fff" }}>
+        Login
       </Link>
     </nav>
   );
